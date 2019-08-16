@@ -58,7 +58,7 @@ Michael Chui - Initial work - Lighthouse Labs
 
 ## Credit and License
 The following images from font awesome <https://fontawesome.com> were used under the Creative Commons Attribution 4.0 International license:
-retweet image <https://fontawesome.com/icons/retweet?style=solid>
-flag image <https://fontawesome.com/icons/flag?style=solid>
-heart image <https://fontawesome.com/icons/heart?style=solid>
-angle double arrow down image <https://fontawesome.com/icons/angle-double-down?style=solid>
+* retweet image <https://fontawesome.com/icons/retweet?style=solid>
+* flag image <https://fontawesome.com/icons/flag?style=solid>
+* heart image <https://fontawesome.com/icons/heart?style=solid>
+* angle double arrow down image <https://fontawesome.com/icons/angle-double-down?style=solid>
