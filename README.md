@@ -36,11 +36,11 @@ Key features:
 4. Go to <http://localhost:8080/> in your browser.
 
 ## Dependencies
-Express 4.13.4
-Body-Oarser v1.15.2
-Chance 1.0.2
-md5 2.1.0
-NOdemon 1.9.2 (devDependency)
+* Express 4.13.4
+* Body-Oarser v1.15.2
+* Chance 1.0.2
+* md5 2.1.0
+* NOdemon 1.9.2 (devDependency)
 
 ## Testing
 Testings were done primarily using Chomr browser and Chrome Developer tool.
