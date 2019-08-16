@@ -8,6 +8,7 @@ A twitter clone by Lighthouse Labs for web bootcamp students to learn front-end 
 - JS,
 - jQuery, and 
 - AJAX.
+
 The project will also continue practice back-end skills using their Node, Express and MongoDB knowledge.
 
 This repository is the starter code for the project: fork and clone this git repository, then build upon it to practice front-end skills mentioned above including utilizing back-end skills learned last week.
