@@ -16,12 +16,12 @@ We were also challenged to adapt different CSS methods to visualize and build th
 
 ## Final Product
 
-### Desktop view of Tweeter(<https://github.com/mikel-k-khui/tweeter/blob/master/docs/01%20desktop_view.png>)
-### Tablet view of Tweeter (<https://github.com/mikel-k-khui/tweeter/blob/master/docs/02%20tablet_view.png>)
-### Mobile view of Tweeter(<https://github.com/mikel-k-khui/tweeter/blob/master/docs/03%20mobile_view.png>)
-### Demonstration of the error message slide up and down feature(<https://github.com/mikel-k-khui/tweeter/blob/master/docs/04%20input_error.png>)
-### Demonstration of the hover effect on Tweets(<https://github.com/mikel-k-khui/tweeter/blob/master/docs/05%20hover_effect_on_tweet.png>)
-### Demonstration of compose Tweet function(<https://github.com/mikel-k-khui/tweeter/blob/master/docs/06%20compose_tweet.png>)
+### [Desktop view of Tweeter](https://github.com/mikel-k-khui/tweeter/blob/master/docs/01%20desktop_view.png)
+### [Tablet view of Tweeter](https://github.com/mikel-k-khui/tweeter/blob/master/docs/02%20tablet_view.png)
+### [Mobile view of Tweeter](https://github.com/mikel-k-khui/tweeter/blob/master/docs/03%20mobile_view.png)
+### [Demonstration of the error message slide up and down feature](https://github.com/mikel-k-khui/tweeter/blob/master/docs/04%20input_error.png)
+### [Demonstration of the hover effect on Tweets](https://github.com/mikel-k-khui/tweeter/blob/master/docs/05%20hover_effect_on_tweet.png)
+### [Demonstration of compose Tweet function](https://github.com/mikel-k-khui/tweeter/blob/master/docs/06%20compose_tweet.png)
 
 Key features:
 1) Tweets are presented newest to oldest
@@ -62,3 +62,4 @@ The following images from font awesome <https://fontawesome.com> were used under
 * flag image <https://fontawesome.com/icons/flag?style=solid>
 * heart image <https://fontawesome.com/icons/heart?style=solid>
 * angle double arrow down image <https://fontawesome.com/icons/angle-double-down?style=solid>
+No changes were made to the images except for on-screen scaling for responsive design.
