@@ -11,15 +11,24 @@ html {
 }
 
 /*
- * Global layout stuff
+ * Minor body updates with no Flex container in body
  */
 
 body {
-  margin: 0;
-  color: #244751;
-  background-color: #eee;
+  color: #545149;
+  background-color: #f4f1ec;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  display: block;
+  padding-top: 120px;
+  width: 100%;
 }
 
 /*
- * Additional CSS can be defined below or in other CSS files, as per instructions
+ * no Flex container of the main body
  */
+
+ .container {
+   width: 90%;
+   margin: 0 auto;
+}

@@ -1,0 +1,72 @@
+/*
+ * new tweet's container with 
+ */
+.new-tweet {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+/*
+ * forms's container for the new tweet box
+ */
+form {
+  display: float;
+  flex-direction: column;
+}
+
+form error-box {
+  color: #ff0000;
+  text-align: center;
+}
+
+form textarea {
+  border-style: hidden hidden solid hidden;
+  border-width: medium;
+  width: 100%;
+  height: auto;
+  resize: none;
+  overflow: hidden;
+}
+
+form input {
+  background-color: #4056A1;
+  color: #ffffff;
+  font-family: 'Bungee', cursive;
+  flex-basis: content;
+}
+
+form span {
+  font-family: 'Bungee', cursive;
+  align-self: flex-end;
+  float: right;
+ }
+
+ /*
+ * classes to turn span counter red 
+ */
+.counter {
+  color: inherit;
+}
+
+.counter_red {
+  color: #ff0000;
+}
+
+/* desktop styles */
+@media only screen and (min-width: 1024px) {
+  .new-tweet {
+    width: 66.7%;
+    float: right;
+    margin: 0 aut0;
+  }
+}
+
+/* tablet styles */
+@media only screen and (min-width: 760px) and (max-width: 1023px)  {
+  .new-tweet {
+    max-width: 1023px;
+    width: 66.7%;
+    float: right;
+  }
+}

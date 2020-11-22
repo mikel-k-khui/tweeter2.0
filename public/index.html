@@ -3,31 +3,65 @@
   <head>
     <!-- Meta Information -->
     <title>Tweeter - Home Page</title>
-
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+    
     <!-- External CSS -->
     <link rel="stylesheet" href="/vendor/normalize-4.1.1.css" type="text/css" />
 
+    <!-- fronts for CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Source+Sans+Pro:300i,700i&display=fallback" rel="stylesheet">
+
     <!-- App CSS -->
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/header.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/tweet-header.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/scroll.css" type="text/css" />
 
     <!-- External JS -->
     <script type="text/javascript" src="/vendor/jquery-2.2.3.min.js"></script>
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/app.js"></script>
-  </head>
+    <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+    <script type="text/javascript" src="/scripts/tweet-bar-status.js"></script>
+    <script type="text/javascript" src="/scripts/scroll.js"></script>
 
+  </head>
   <body>
 
     <!-- Top nav bar (fixed) -->
     <nav class="navbar">
       <img class="navbar__logo" src="/images/bird.png" width="80px" height="80px">
       <span class="navbar__header">Tweeter</span>
+      <span>tweeter</span>
+      <div id="tweet-bar-toggle"> <strong>Write</strong><small>a new Tweet</small>
+        <img src="/images/angle-double-down-solid.svg">
+      </div>
     </nav>
+
+    <!-- Header between nav bar and body -->
+    <header class="header-bar">
+      <img src="/images/profile-hex.png"> 
+      <h2>Your Name</h2>
+    </header>
 
     <!-- Page-specific (main) content here -->
     <main class="container">
-    </main>
-
+        <section id="toggle-status" class="new-tweet">
+            <h2>Compose Tweet</h2>
+            <form method="POST" action="/tweets/">
+              <textarea name="text" placeholder="What are you humming about?"></textarea>
+              <input type="submit" value="Tweet">
+              <error-box></error-box>
+              <span class="counter" id="span_counter">140</span>
+            </form>
+          </section>
+          <button id="toggleTop" title="Toggle to top">&#8613Top</button>
+          <section id="tweets-container">
+          </section>
+          
+      </main>
   </body>
 </html>
